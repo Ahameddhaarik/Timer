@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Timer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>TIMER<i class="fas fa-stopwatch"></i></h1>
+  <div id="break-control">
+  <div id="break-label">Break Length</div>
+  <button id="break-increment">+</button>
+    <span id="break-length">5</span>
+  <button id="break-decrement">-</button>
+  </div>
+  <div id="session-control">
+    <div id="session-label">Session Length</div>
+    <button id="session-increment">+</button>
+    <span id="session-length">25</span>
+    <button id="session-decrement">-</button>
+  </div>
+  <div id="timer">
+    <h3 id="timer-label">SESSION</h3>
+    <span id="time-left">25:00</span>
+  </div>
+  <div id="controller">
+    <button id="start_stop">
+      <i class="fas fa-play"></i>
+      / <i class="fas fa-pause"></i>
+    </button>
+    <button id="reset"><i class="fas fa-rotate"></i></button>
+  </div>
+  <audio id="beep" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+  <script src="script.js" defer></script>
+</body>
+</html>
