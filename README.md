@@ -1,28 +1,22 @@
 # ⏱️ Pomodoro Timer
 
-A stylish and functional Pomodoro Timer built with **HTML, CSS, and JavaScript**.  
-It helps you manage time effectively using the Pomodoro Technique — alternating between **work sessions** and **breaks**.
+A simple Pomodoro-style timer built with HTML, CSS, and JavaScript.
 
----
+This project uses retro 8-bit styling and provides controls to manage session and break durations.
 
-## 🎯 Features
+## 🔗 Live Demo
 
-- Start, pause, and reset the timer  
-- Customize session and break durations (1–60 mins)  
-- Audio alert when time switches between **Session** and **Break**  
-- Retro-style UI using `Press Start 2P` font and Font Awesome icons  
-- Fully responsive and mobile-friendly  
-- Clean and readable code
+👉 [Click here to view the live timer](https://ahameddhaarik.github.io/Timer)
 
----
+## 📁 Files Included
 
-## 💻 Live Demo
+- `index.html` – Main structure of the timer  
+- `style.css` – Styling with retro theme  
+- `script.js` – JavaScript logic for timer control
 
-🔗 [View Live on GitHub Pages](https://ahameddhaarik.github.io/Timer/)  
+## 🚀 Features
 
-## 📁 Project Structure
-├── index.html # Main HTML layout
-├── style.css # Custom styles
-├── script.js # Timer logic and interaction
-
-
+- Start, pause, and reset timer  
+- Adjustable session and break lengths  
+- Simple and responsive design  
+- Hosted using GitHub Pages
